@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name WS2812B)(type KiCad)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\WS2812B.pretty")(options "")(descr ""))
+  (lib (name help14_keyboard)(type KiCad)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\help14_keyboard.pretty")(options "")(descr ""))
+  (lib (name keebs)(type KiCad)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\keebs.pretty")(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\keyboard_parts.pretty")(options "")(descr ""))
+  (lib (name mx1a)(type KiCad)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\mx1a.pretty")(options "")(descr ""))
+  (lib (name QFN50P700X700X100-45N)(type Legacy)(uri "$(KIPRJMOD)\\mechkey-kicad-lib\\QFN50P700X700X100-45N.mod")(options "")(descr ""))
+)
