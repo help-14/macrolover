@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:keyboard_parts
 LIBS:mkl27z256vfm4
 LIBS:mx1a-simple
-LIBS:ws2812b
 LIBS:pcb-cache
 EELAYER 25 0
 EELAYER END
@@ -773,11 +772,11 @@ Text Label 3500 2700 2    60   ~ 0
 row2
 Text Label 3500 2800 2    60   ~ 0
 row3
-Text Label 5950 2200 0    60   ~ 0
-col1
 Text Label 5950 2300 0    60   ~ 0
+col1
+Text Label 5950 2200 0    60   ~ 0
 col2
-Text Label 5950 2400 0    60   ~ 0
+Text Label 5950 2500 0    60   ~ 0
 col3
 $Comp
 L WS2812B LED4
@@ -977,17 +976,17 @@ F 3 "" H 14200 8650 50  0000 C CNN
 	1    14200 8650
 	0    -1   -1   0   
 $EndComp
-Text Label 5950 2500 0    60   ~ 0
+Text Label 5950 2400 0    60   ~ 0
 col4
 Text Label 3500 2900 2    60   ~ 0
 row4
 Text Label 5950 1400 0    60   ~ 0
 rgb1
-Text Label 5950 1700 0    60   ~ 0
+Text Label 5950 1500 0    60   ~ 0
 rgb2
 Text Label 5950 1600 0    60   ~ 0
 rgb3
-Text Label 5950 1500 0    60   ~ 0
+Text Label 5950 1700 0    60   ~ 0
 rgb4
 Text Label 14400 3700 0    60   ~ 0
 rgb1
@@ -1549,14 +1548,6 @@ Wire Wire Line
 	13850 6700 13850 6950
 Connection ~ 13850 6950
 Wire Wire Line
-	5950 2500 5800 2500
-Wire Wire Line
-	5800 2400 5950 2400
-Wire Wire Line
-	5950 2300 5800 2300
-Wire Wire Line
-	5800 2200 5950 2200
-Wire Wire Line
 	3500 2900 3650 2900
 Wire Wire Line
 	3650 2800 3500 2800
@@ -1789,9 +1780,17 @@ Wire Wire Line
 	2750 2550 2900 2550
 Connection ~ 2900 2550
 Wire Wire Line
-	5950 1500 5800 1500
-Wire Wire Line
 	5800 1600 5950 1600
 Wire Wire Line
-	5950 1700 5800 1700
+	5950 2200 5800 2200
+Wire Wire Line
+	5800 2300 5950 2300
+Wire Wire Line
+	5950 2400 5800 2400
+Wire Wire Line
+	5800 2500 5950 2500
+Wire Wire Line
+	5950 1500 5800 1500
+Wire Wire Line
+	5800 1700 5950 1700
 $EndSCHEMATC
