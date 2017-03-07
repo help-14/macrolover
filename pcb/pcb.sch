@@ -48,17 +48,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA32U4 U1
-U 1 1 58B11B4F
-P 12100 1500
-F 0 "U1" H 12100 250 60  0000 C CNN
-F 1 "ATMEGA32U4" H 12100 2750 60  0000 C CNN
-F 2 "keyboard_parts:QFP44_reflow" H 12100 1500 60  0001 C CNN
-F 3 "" H 12100 1500 60  0000 C CNN
-	1    12100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L XTAL_GND X1
 U 1 1 58B11C28
 P 1300 1750
@@ -696,11 +685,11 @@ Text Label 5350 2400 0    60   ~ 0
 row2
 Text Label 5350 2500 0    60   ~ 0
 row3
-Text Label 5350 2700 0    60   ~ 0
+Text Label 5350 1400 0    60   ~ 0
 col1
-Text Label 5350 2800 0    60   ~ 0
-col2
 Text Label 5350 2900 0    60   ~ 0
+col2
+Text Label 5350 2800 0    60   ~ 0
 col3
 $Comp
 L WS2812B LED4
@@ -900,7 +889,7 @@ F 3 "" H 14200 8650 50  0000 C CNN
 	1    14200 8650
 	0    -1   -1   0   
 $EndComp
-Text Label 5300 1400 0    60   ~ 0
+Text Label 5350 2700 0    60   ~ 0
 col4
 Text Label 5350 2600 0    60   ~ 0
 row4
@@ -1101,7 +1090,7 @@ U 1 1 58BCFCCC
 P 4100 2500
 F 0 "IC1" H 3250 3850 50  0000 C CNN
 F 1 "ATMEGA32U2" H 4850 1150 50  0000 C CNN
-F 2 "" H 3950 2550 50  0000 C CNN
+F 2 "keyboard_parts:QFP32" H 3950 2550 50  0000 C CNN
 F 3 "http://www.atmel.com/Images/doc7799.pdf" H 4200 1050 50  0001 C CNN
 	1    4100 2500
 	1    0    0    -1  
@@ -1715,12 +1704,6 @@ Wire Wire Line
 	2750 1050 4100 1050
 Connection ~ 4100 1050
 Wire Wire Line
-	5200 2900 5350 2900
-Wire Wire Line
-	5200 2800 5350 2800
-Wire Wire Line
-	5200 2700 5350 2700
-Wire Wire Line
 	5200 2600 5350 2600
 Wire Wire Line
 	5200 2500 5350 2500
@@ -1733,10 +1716,16 @@ Wire Wire Line
 Wire Wire Line
 	5200 3000 5350 3000
 Wire Wire Line
-	5300 1400 5200 1400
-Wire Wire Line
 	4100 3950 5650 3950
 Wire Wire Line
 	5650 3950 5650 3000
 Connection ~ 4100 3950
+Wire Wire Line
+	5200 2900 5350 2900
+Wire Wire Line
+	5200 2800 5350 2800
+Wire Wire Line
+	5200 2700 5350 2700
+Wire Wire Line
+	5200 1400 5350 1400
 $EndSCHEMATC
